@@ -1,0 +1,89 @@
+﻿* {
+    font-size: 20px;
+}
+
+#form1 {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .menu * {
+        flex-grow: 1;
+        margin: 0 5px;
+    }
+
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+    .sidebar .phan1,
+    .sidebar .phan3 {
+        flex-grow: 1;
+    }
+
+    .sidebar .phan2 {
+        flex-grow: 2;
+    }
+
+.phan1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.theloai {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    border: 1px solid #ccc;
+    text-align:right;
+}
+
+.content {
+    height: 90%;
+    border: 1px solid #ccc;
+}
+
+.phanphu {
+    display: flex;
+    flex-direction: column;
+}
+
+.tongphu {
+    border: 1px solid #ccc;
+}
+
+.phan3 {
+    padding: 10px;
+}
+
+.phan2 {
+    padding: 10px;
+}
+
+.login {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #ffd800;
+}
